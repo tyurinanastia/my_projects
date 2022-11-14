@@ -1,0 +1,86 @@
+body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Light', Helvetica, Arial , Verdana, sans-serif;
+}
+
+header {
+width: 100%;
+height: 48px;
+padding: 0px 50px;
+position: fixed;
+top: 0;
+left: 0;
+box-sizing: border-box;
+background-color: white;
+border-bottom: 1px solid lightgrey;
+}
+
+
+.content {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #333;
+    font-weight: 300;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Light', Helvetica, Arial , Verdana, sans-serif;;
+}
+
+.content p {
+    width: 380px;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #67696a;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Light', Helvetica, Arial , Verdana, sans-serif;
+};
+
+.container {
+    width: 750px;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0 auto;
+padding: 0px 15px;
+display: inline;
+float: left;
+}
+
+li {
+    display: inline;
+    padding: 15px 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+}
+
+.right-bar {
+    float: right;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+a {
+color:#2e87ca;
+text-decoration: none;
+}
+a:visited{
+    color:#2e87ca;
+}
+
+.main-button, .main-button:visited {
+    background-color: #1d98dc;
+    border-radius: 30px;
+    width: 266px;
+    height: 50px;
+    padding: 16.5px 28px;
+    color: white;
+    font-size: 15px;
+    border-color: #357ebd;
+}
